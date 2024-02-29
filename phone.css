@@ -1,0 +1,145 @@
+@media screen and (max-width:690px) {
+
+
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      width: 100%;
+      /* background-color: red; */
+    }
+  
+    nav {
+      width: 90vw;
+    }
+  
+    nav div {
+      gap: 2px;
+      margin: 0px;
+      padding: 0px;
+    }
+  
+    nav span img {
+      width: 65px;
+    }
+  
+    .main {
+      height: 500px;
+      position: inherit;
+      background-repeat: no-repeat;
+    }
+  
+    nav div select {
+      padding: 2px;
+      font-size: 12px;
+    }
+  
+    nav .btn {
+      padding: 4px;
+      font-size: smaller;
+    }
+  
+    #text-1 {
+      font-size: 35px;
+    }
+  
+    #text-2 {
+      font-size: 18px;
+    }
+  
+  
+  
+    .box-1 {
+      gap: 5px;
+      width: 90vw;
+    }
+  
+    .box-2 img {
+      width: 340px;
+      z-index: 3;
+    }
+  
+    .box-2 video {
+      width: 250px;
+      top: 260px;
+    }
+  
+    #vid2 {
+      position: absolute;
+      top: 240px;
+      width: 215px;
+    }
+  
+    .container {
+      height: 550px;
+    }
+  
+  
+  
+    .btn {
+      padding: 10px;
+      font-size: medium;
+      border: none;
+    }
+  
+  
+    .input {
+      /* padding-right: 50px; */
+      /* padding-left: 5px; */
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+  
+    }
+  
+    .input input {
+      padding: 10px;
+      padding-left: 15px;
+      /* font-size: smaller; */
+    }
+  
+  
+    .container-2 .que div {
+      height: 50px;
+    }
+  
+    .padding {
+      padding: 30px 0px;
+    }
+  
+    .padding-2 {
+      padding: 10px;
+    }
+  
+    .seperation {
+      width: 100%;
+      z-index: 2;
+    }
+  
+  
+  
+    footer>:nth-child(1)>:nth-child(1) {
+      text-align: left;
+    }
+  
+    footer>:nth-child(1)>:nth-child(2) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      text-align: left;
+      gap: 10px;
+      font-size: 14px;
+    }
+    #column{
+        /* display: flex; */
+        flex-direction: column;
+    }
+    #columnr{
+        flex-direction: column-reverse;
+
+    }
+
+  
+  }

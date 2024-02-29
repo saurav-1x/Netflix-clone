@@ -1,0 +1,118 @@
+
+@media screen and (min-width:912px)and (max-width:1368px) {
+    
+    .main{
+        background-size:1700px ;
+        height: 50vh;
+    }
+    .container{
+        width: 90vw;
+    }
+}
+@media screen and (min-width:853px)and (max-width:1280px) {
+    .main{
+        height: 50vh;
+    }
+}
+@media screen and (min-width:800px)and (max-width:1280px) {
+    .main{
+        height: 70vh;
+    }
+}
+@media screen and (max-width: 1000px )and (min-width:600px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+  
+    #text-1 {
+        font-size: 50px;
+    }
+
+    #text-2 {
+        font-size: 25px;
+    }
+
+    .box-2 img {
+        width: 320px;
+        z-index: 3;
+    }
+
+    .box-2 video {
+        width: 235px;
+        top: 120px;
+    }
+
+    #vid2 {
+        position: absolute;
+        top: 100px;
+        width: 200px;
+    }
+
+    .container {
+        height: 400px;
+        width: 100%;
+        margin: 0px 20px;
+    }
+ 
+
+    nav {
+        width: 90vw;
+        margin: 0px 20px;
+    }
+
+    select,
+    .btn {
+        /* color: blue; */
+        /* padding: 3px; */
+        font-size: smaller;
+        padding: 0px 10px;
+        /* font-size: 2px; */
+    }
+
+    nav .btn {
+        padding: 5px;
+        font-size: smaller;
+    }
+
+    nav span img {
+        width: 100px;
+    }
+    .input input{
+        padding: 7px;
+    }
+
+    .container-2 .que div {
+        height: 80px;
+    }
+    .padding{
+        padding: 30px 0px;
+    }
+    .padding-2{
+        padding:  10px;
+    }
+    .seperation{
+        width: 100%;
+        z-index: 2;
+    }
+    .main{
+        height: 70vh;
+        position: inherit;
+        background-repeat: no-repeat;  
+    }
+    /* footer>:nth-child(1)>:nth-child(1){
+    } */
+footer{
+        text-align: left;
+  width:90%;
+  
+}
+   /* footer>:nth-child(1)>:nth-child(2){
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+   } */
+}
